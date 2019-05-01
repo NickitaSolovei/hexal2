@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+body {
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+.header-color {
+  /*display: flex;
+  justify-content: center;*/
+
+  /*height: 188px;*/
+  background-color: rgb(50, 50, 50);
+}
+
+.highest {
+  /*display: flex;
+  justify-content: center;*/
+}
+
+.main-menu {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu .main-menu-left ul{
+  justify-content: flex-end;
+}
+
+.main-menu .main-menu-right ul{
+  justify-content: flex-start;
+}
+
+.main-menu > li {
+  flex: 0 0 150px;
+}
+
+.main-menu li li {
+  flex: 0 0 auto;
+  margin-left: 6px;
+  margin-right: 6px;
+
+  text-align: center;
+
+  margin-top: 26px;
+}
+
+.main-menu .middot {
+  flex: 0 0 auto;
+  color: rgb(70, 70, 70);
+
+  
+}
+
+.main-menu .middot a {
+  color: rgb(70, 70, 70);
+  
+}
+
+.main-menu .middot a:hover {
+  cursor: default;
+  color: rgb(70, 70, 70);
+}
+
+.main-menu .logo-li {
+  flex: 0 0 auto;
+  margin-top: 11px;
+  margin-left: 35px;
+  margin-right: 35px;
+  /*padding-left: 5px;*/
+}
+
+.main-menu a {
+  font-family: "Lato", sans-serif;
+  font-size: 9.49px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+
+  text-align: center;
+}
+
+.main-menu .current a {
+  color: rgb(47, 152, 130);
+}
+
+.main-menu a:hover {
+  color: red;
+}
+
+.main-menu .current a:hover {
+  color: rgb(47, 152, 130);
+}
+
+
+/*.main-menu li::before {
+  content: ".";
+}*/
+
+
+
+.triangle-container {
+  margin-top: 2px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.triangle-left {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 26px 0 0 45px;
+border-color: transparent transparent transparent white;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 26px 45px;
+  border-color: transparent transparent white transparent;
+
+}
+
+.traingle-free {
+  background-color: white;
+  flex: 1 0 0px;
+}
+
+.gray-line-left {
+  margin-left: 30px;
+  margin-right: 25px;
+  margin-top: 11px;
+  border-top: 1px solid rgb(228, 233, 235);
+}
+
+.gray-line-right {
+  margin-left: 25px;
+  margin-right: 30px;
+  margin-top: 11px;
+  border-top: 1px solid rgb(228, 233, 235);
+}
+
+.logo-container {
+  position: relative;
+}
+
+.triangle-logo-top {
+  width: 0; 
+  height: 0;
+  border-left: 29px solid transparent;
+  border-right: 29px solid transparent;
+  border-top: 50px solid rgb(50, 50, 50);
+
+  position: relative;
+  z-index: 6;
+}
+
+.triangle-logo-bottom {
+  width: 0; 
+  height: 0;
+  border-left: 29px solid transparent;
+  border-right: 29px solid transparent;
+  border-top: 50px solid white;
+
+  position: absolute;
+  top: 2px;
+
+  z-index: 5;
+}
+
+.triangle-logo-top-second {
+  width: 0; 
+  height: 0;
+  border-left: 29px solid transparent;
+  border-right: 29px solid transparent;
+  border-top: 8px solid rgb(50, 50, 50);
+
+  position: absolute;
+  z-index: 8;
+  top: 2px;
+}
+
+.triangle-logo-bottom-second {
+  width: 0; 
+  height: 0;
+  border-left: 29px solid transparent;
+  border-right: 29px solid transparent;
+  border-top: 8px solid white;
+
+  position: absolute;
+  top: 3px;
+
+  z-index: 7;
+}
+
+
+/* main */
+.picture-hexagon {
+  /*clip-path: polygon(50% 4%, 91% 28%, 91% 74%, 50% 98%, 9% 74%, 9% 28%);*/
+  clip-path: polygon(110px 10px, 200px 60px, 200px 165px, 110px 215px, 20px 165px, 20px 60px);
+  /*margin-left: -13px;
+  margin-right: -13px;*/
+
+  margin-left: 15px;
+}
+
+.pictures > .pictures-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-top: 85px;
+}
+  
+.pictures div .img-container {
+  flex: 0 0 250px;
+
+  
+
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.vertical-gray-line {
+  border-left: 1px solid rgb(228, 233, 235);
+  height: 105px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.list-imgs {
+  display: flex;
+  justify-content: flex-start;
+
+  margin-top: 76px;
+  margin-left: 30px;
+}
+
+.switch-imgs {
+
+  width: 6px;
+  height: 6px;
+
+  flex: 0 0 auto;
+  margin-right: 3px;
+  background-color: rgb(221, 210, 197);
+}
+
+.list-imgs .list-imgs-active {
+  background-color: rgb(139, 135, 132);
+}
+
+.switch-imgs:hover {
+  background-color: red;
+}
+
+.list-imgs-active:hover {
+  background-color: rgb(139, 135, 132);
+}
+
+.separ-line {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  border-bottom: 1px solid rgb(228, 233, 235);
+}
+
+
+.about {
+  min-height: 311px;
+  background-color: rgb(46, 179, 152);
+  padding: 15px 99px;
+}
+
+.about-container {
+  display: flex;
+  
+
+  border-left: 1px solid rgb(33, 157, 132);
+  border-right: 1px solid rgb(33, 157, 132);
+}
+
+.picture-hexagon-center {
+  /*clip-path: polygon(50% 4%, 91% 28%, 91% 74%, 50% 98%, 9% 74%, 9% 28%);*/
+  clip-path: polygon(210px 0px, 300px 50px, 300px 155px, 210px 205px, 120px 155px, 120px 50px);
+  /*margin-left: -13px;
+  margin-right: -13px;*/
+
+  position: absolute;
+  left: 50%;
+  margin-left: -210px;
+  margin-top: 53px;
+  /*top: 50px;*/
+}
+
+.photo-column {
+  flex: 0 0 220px;
+  height: 250px;
+
+  
+}
+
+.text-column {
+  flex: 1 1 auto;
+}
+
+.about-container-photo {
+  position: relative;
+}
+
+.author-name {
+  margin-top: 45px;
+  margin-bottom: 0;
+  color: rgb(215, 252, 245);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -0.007em;
+}
+
+.position {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(32, 129, 109);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: -0.01em;
+}
+
+.text-column p {
+  color: rgb(215, 252, 245);
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 1.8;
+  
+}
+
+
+.get-in-touch {
+  min-height: 311px;
+  background-color: rgb(50, 50, 50);
+  /*padding: 13px 30px;*/
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.get-in-touch-container {
+
+  border-top: 1px solid rgb(43, 43, 43);
+  border-bottom: 1px solid rgb(43, 43, 43);
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+
+  min-height: 458px;
+}
+
+.article-get-in-touch {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: rgb(224, 224, 224);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  /*letter-spacing: -0.007em;*/
+}
+
+.text-get-in-touch {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(190, 190, 190);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  /*letter-spacing: -0.01em;*/
+}
+
+.get-in-touch-footer {
+  display: flex;
+  margin-top: 3px;
+}
+
+.first-column {
+  flex: 1 1 auto;
+}
+
+
+#commentform input {
+  background-color: rgb(69, 69, 69);
+  border: none;
+  height: 36px;
+  padding-left: 15px;
+  margin-right: 15px;
+
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: rgb(227, 238, 236);
+
+
+  width: 100%;
+}
+
+#commentform p {
+  margin-bottom: 0;
+}
+
+#commentform textarea {
+  background-color: rgb(69, 69, 69);
+  border: none;
+  height: 136px;
+  width: 100%;
+
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-right: 0;
+
+
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: rgb(227, 238, 236);
+  resize: none;
+
+}
+
+#commentform #submit {
+  float: right;
+  width: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: -15px;
+
+  position: relative;
+  top: -4px;
+
+  background-color: rgb(46, 179, 152);
+}
+
+
+.second-column {
+  flex: 0 0 215px;
+
+
+
+}
+
+.second-column > p {
+  margin-left: 35px;
+
+  
+
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: rgb(190, 190, 190);
+}
+
+.contacts {
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.contacts a {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(190, 190, 190);
+}
+
+.contacts p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(190, 190, 190);
+}
+
+.fa-phone, .fa-envelope {
+  margin-right: 12px;
+  color: rgb(46, 179, 152);;
+}
+
+.fa-phone:before {
+
+  content: "\f095";
+}
+
+footer {
+  background-color: rgb(34, 34, 34);
+}
+
+footer div {
+  padding-top: 13px;
+  padding-bottom: 15px;
+
+}
+
+footer p {
+  margin: 0 40px;
+
+  color: rgb(71, 71, 71);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
